@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <main class="container">
+    <section id="ratingform" class="ratingform">
+      <section class="ratingtext">
+        <div class="starbackground">
+          <img src="images/icon-star.svg" alt="Star icon">
+        </div>
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      </section>
+
+      <section class="ratingradios">
+      
+        <div role="radiogroup">
+          <input type="radio" id="one" class="radio one" value="1" name="radiobutton">
+          <label for="one" class="radiolabel" role="radio">1</label>
+
+        </div>
+
+        <div role="radiogroup">
+          <input type="radio" id="two" class="radio two" value="2" name="radiobutton">
+          <label for="two" class="radiolabel" role="radio">2</label>
+
+        </div>
+
+        <div role="radiogroup">
+          <input type="radio" id="three" class="radio three" value="3" name="radiobutton">
+          <label for="three" class="radiolabel" role="radio">3</label>
+
+        </div>
+
+        <div role="radiogroup">
+        <input type="radio" id="four" class="radio four" value="4" name="radiobutton">
+        <label for="four" class="radiolabel" role="radio">4</label>
+
+        </div>
+
+        <div role="radiogroup">
+          <input type="radio" id="five" class="radio five" value="5" name="radiobutton">
+          <label for="five" class="radiolabel" role="radio">5</label>
+
+        </div>
+
+      </section>
+      <button id="submitbutton">Submit</button>
+    </section>
+
+    <section id="thankyoupanel" class="thankyoupanel containerbackground">
+      <img src="images/illustration-thank-you.svg" alt="An image showing a credit card next to a phone showing a reciept.">
+      <p id="userrating">Your selected rating here</p>
+      <h1>Thank You!</h1>
+      <p class="thankyoutext">We appreciate you taking the time to give a rating. IF you ever need more support, don't hesitate to get in touch!</p>
+    </section>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Matt</a>.
+  </footer>
+</body>
+</html>
